@@ -1,0 +1,135 @@
+/* General Styles */
+.editable-heading, .skills-section, .projects-section, .achievements-section, .github-section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Editable Heading */
+  .editable-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .heading-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .heading-content h2 {
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .editable-heading button {
+    margin-left: 10px;
+  }
+  
+  /* Skills Section */
+  .skills-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-section li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .skills-section button {
+    margin-left: 10px;
+  }
+  
+  .skills-section .mb-3 {
+    margin-top: 20px;
+  }
+  
+  /* Projects Section */
+  .projects-section .project-card {
+    margin-bottom: 20px;
+  }
+  
+  .projects-section .project-card h3 {
+    font-size: 1.5rem;
+  }
+  
+  .projects-section button {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .project-card {
+    padding: 15px;
+  }
+  
+  /* Achievements Section */
+  .achievements-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .achievements-section li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .achievements-section button {
+    margin-left: 10px;
+  }
+  
+  /* GitHub Section */
+  .github-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .github-section a {
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .github-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .github-section button {
+    margin-left: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .editable-heading, .skills-section, .projects-section, .achievements-section, .github-section {
+      padding: 15px;
+    }
+  
+    .heading-content h2 {
+      font-size: 1.25rem;
+    }
+  
+    .skills-section li, .achievements-section li {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .projects-section .project-card {
+      padding: 10px;
+    }
+  }
+  
